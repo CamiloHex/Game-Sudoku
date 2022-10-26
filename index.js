@@ -83,13 +83,6 @@ function Sudoku(){
     }
     
 }
-/*
-let j = 1
-for(let i=0; i<9; i++){
-    document.querySelector('#datofin'+j).value = i+1
-    j += 1
-}
-*/
 
 
 
