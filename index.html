@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Game Sudoku☺</title>
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+<body class="main_container">
+    <header class="header">
+        <div>
+            <h2>¡JUEGO DEL SUDOKU!</h2>
+        </div>
+        <div>
+            <h4>Ingrese los valores iniciales siguendo las reglas del juego</h4>
+        </div>
+    </header>
+    <hr>
+    <div class="game">
+        <div class="Sudo_ini">
+            <div>
+                <h3>Sudoku inicial</h3>
+            </div>
+            <div class="grid">
+                <input type="num" id="dato1">
+                <input type="num" id="dato2">
+                <input type="num" id="dato3">
+                <input type="num" id="dato4">
+                <input type="num" id="dato5">
+                <input type="num" id="dato6">
+                <input type="num" id="dato7">
+                <input type="num" id="dato8">
+                <input type="num" id="dato9">
+            </div>
+            <div class="grid">
+                <input type="num" id="dato10">
+                <input type="num" id="dato11">
+                <input type="num" id="dato12">
+                <input type="num" id="dato13">
+                <input type="num" id="dato14">
+                <input type="num" id="dato15">
+                <input type="num" id="dato16">
+                <input type="num" id="dato17">
+                <input type="num" id="dato18">        
+            </div>
+            <div class="grid">
+                <input type="num" id="dato19">
+                <input type="num" id="dato20">
+                <input type="num" id="dato21">
+                <input type="num" id="dato22">
+                <input type="num" id="dato23">
+                <input type="num" id="dato24">
+                <input type="num" id="dato25">
+                <input type="num" id="dato26">
+                <input type="num" id="dato27">       
+            </div>
+            <div class="grid">
+                <input type="num" id="dato28">
+                <input type="num" id="dato29">
+                <input type="num" id="dato30">
+                <input type="num" id="dato31">
+                <input type="num" id="dato32">
+                <input type="num" id="dato33">
+                <input type="num" id="dato34">
+                <input type="num" id="dato35">
+                <input type="num" id="dato36">        
+            </div>
+            <div class="grid">
+                <input type="num" id="dato37">
+                <input type="num" id="dato38">
+                <input type="num" id="dato39">
+                <input type="num" id="dato40">
+                <input type="num" id="dato41">
+                <input type="num" id="dato42">
+                <input type="num" id="dato43">
+                <input type="num" id="dato44">
+                <input type="num" id="dato45">       
+            </div>
+            <div class="grid">
+                <input type="num" id="dato46">
+                <input type="num" id="dato47">
+                <input type="num" id="dato48">
+                <input type="num" id="dato49">
+                <input type="num" id="dato50">
+                <input type="num" id="dato51">
+                <input type="num" id="dato52">
+                <input type="num" id="dato53">
+                <input type="num" id="dato54">        
+            </div>
+            <div class="grid">
+                <input type="num" id="dato55">
+                <input type="num" id="dato56">
+                <input type="num" id="dato57">
+                <input type="num" id="dato58">
+                <input type="num" id="dato59">
+                <input type="num" id="dato60">
+                <input type="num" id="dato61">
+                <input type="num" id="dato62">
+                <input type="num" id="dato63">       
+            </div>
+            <div class="grid">
+                <input type="num" id="dato64">
+                <input type="num" id="dato65">
+                <input type="num" id="dato66">
+                <input type="num" id="dato67">
+                <input type="num" id="dato68">
+                <input type="num" id="dato69">
+                <input type="num" id="dato70">
+                <input type="num" id="dato71">
+                <input type="num" id="dato72">      
+            </div>
+            <div class="grid">
+                <input type="num" id="dato73">
+                <input type="num" id="dato74">
+                <input type="num" id="dato75">
+                <input type="num" id="dato76">
+                <input type="num" id="dato77">
+                <input type="num" id="dato78">
+                <input type="num" id="dato79">
+                <input type="num" id="dato80">
+                <input type="num" id="dato81">      
+            </div>
+        </div>
+    
+        <div class="Sudo_fin">
+            <div>
+                <h3>Sudoku resuelto</h3>
+            </div>
+            <div class="grid">
+                <input type="text" id="datofin1" disabled>
+                <input type="text" id="datofin2" disabled>
+                <input type="text" id="datofin3" disabled>
+                <input type="text" id="datofin4" disabled>
+                <input type="text" id="datofin5" disabled>
+                <input type="text" id="datofin6" disabled>
+                <input type="text" id="datofin7" disabled>
+                <input type="text" id="datofin8" disabled>
+                <input type="text" id="datofin9" disabled>
+            </div>
+            <div class="grid">
+                <input type="text" id="datofin10" disabled>
+                <input type="text" id="datofin11" disabled>
+                <input type="text" id="datofin12" disabled>
+                <input type="text" id="datofin13" disabled>
+                <input type="text" id="datofin14" disabled>
+                <input type="text" id="datofin15" disabled>
+                <input type="text" id="datofin16" disabled>
+                <input type="text" id="datofin17" disabled>
+                <input type="text" id="datofin18" disabled>        
+            </div>
+            <div class="grid">
+                <input type="text" id="datofin19" disabled>
+                <input type="text" id="datofin20" disabled>
+                <input type="text" id="datofin21" disabled>
+                <input type="text" id="datofin22" disabled>
+                <input type="text" id="datofin23" disabled>
+                <input type="text" id="datofin24" disabled>
+                <input type="text" id="datofin25" disabled>
+                <input type="text" id="datofin26" disabled>
+                <input type="text" id="datofin27" disabled>       
+            </div>
+            <div class="grid">
+                <input type="text" id="datofin28" disabled>
+                <input type="text" id="datofin29" disabled>
+                <input type="text" id="datofin30" disabled>
+                <input type="text" id="datofin31" disabled>
+                <input type="text" id="datofin32" disabled>
+                <input type="text" id="datofin33" disabled>
+                <input type="text" id="datofin34" disabled>
+                <input type="text" id="datofin35" disabled>
+                <input type="text" id="datofin36" disabled>        
+            </div>
+            <div class="grid">
+                <input type="text" id="datofin37" disabled>
+                <input type="text" id="datofin38" disabled>
+                <input type="text" id="datofin39" disabled>
+                <input type="text" id="datofin40" disabled>
+                <input type="text" id="datofin41" disabled>
+                <input type="text" id="datofin42" disabled>
+                <input type="text" id="datofin43" disabled>
+                <input type="text" id="datofin44" disabled>
+                <input type="text" id="datofin45" disabled>       
+            </div>
+            <div class="grid">
+                <input type="text" id="datofin46" disabled>
+                <input type="text" id="datofin47" disabled>
+                <input type="text" id="datofin48" disabled>
+                <input type="text" id="datofin49" disabled>
+                <input type="text" id="datofin50" disabled>
+                <input type="text" id="datofin51" disabled>
+                <input type="text" id="datofin52" disabled>
+                <input type="text" id="datofin53" disabled>
+                <input type="text" id="datofin54" disabled>        
+            </div>
+            <div class="grid">
+                <input type="text" id="datofin55" disabled>
+                <input type="text" id="datofin56" disabled>
+                <input type="text" id="datofin57" disabled>
+                <input type="text" id="datofin58" disabled>
+                <input type="text" id="datofin59" disabled>
+                <input type="text" id="datofin60" disabled>
+                <input type="text" id="datofin61" disabled>
+                <input type="text" id="datofin62" disabled>
+                <input type="text" id="datofin63" disabled>       
+            </div>
+            <div class="grid">
+                <input type="text" id="datofin64" disabled>
+                <input type="text" id="datofin65" disabled>
+                <input type="text" id="datofin66" disabled>
+                <input type="text" id="datofin67" disabled>
+                <input type="text" id="datofin68" disabled>
+                <input type="text" id="datofin69" disabled>
+                <input type="text" id="datofin70" disabled>
+                <input type="text" id="datofin71" disabled>
+                <input type="text" id="datofin72" disabled>      
+            </div>
+            <div class="grid">
+                <input type="text" id="datofin73" disabled>
+                <input type="text" id="datofin74" disabled>
+                <input type="text" id="datofin75" disabled>
+                <input type="text" id="datofin76" disabled>
+                <input type="text" id="datofin77" disabled>
+                <input type="text" id="datofin78" disabled>
+                <input type="text" id="datofin79" disabled>
+                <input type="text" id="datofin80" disabled>
+                <input type="text" id="datofin81" disabled>      
+            </div>
+        </div>
+    </div>
+    <div class="btn_jugar">
+        <button type="submit" onclick="Sudoku()" class="btn btn-dark">JUGAR</button>
+    </div>
+    <hr>
+    <div class="footer">
+        <span>
+            Created by: @Camilohex
+        </span>
+    </div>
+    <hr>
+    <script src="./index.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  
+</body>
+</html>
